@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm': '640px',    // Small devices (e.g., phones)
+        'md': '768px',    // Medium devices (e.g., tablets)
+        'lg': '1024px',   // Large devices (e.g., laptops)
+        'xl': '1280px',   // Extra large devices (e.g., desktops)
+        '2xl': '1536px',  // Extra extra large devices (e.g., large desktops)
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +24,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
